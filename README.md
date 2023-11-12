@@ -2,7 +2,7 @@ Based by ISBN 978-3-319-13071-2
 
 | Operation | Complexity | Usage | Method |
 |-----------|------------|-------|--------|
-| list creation| O(n) or O(1) | x = list(y) | calls `__init__(y)` |
+| list creation| O(n) or O(1) | x = PyList(y) | calls `__init__(y)` |
 | indexed get| O(1) | a = x[i] | `x.__getitem__(i)` |
 | indexed set| O(1) | x[i] = a | `x.__setitem__(i,a)` |
 | concatenate| O(n) | z = x + y | `x.__add__(y)`|
